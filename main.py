@@ -18,7 +18,7 @@ def c_conversion():
     c = input("Enter your temperature in Celsius: ")
     c_int = int(c)
     
-    farenheit_conversion = ((9 / 5) * c) + 32
+    farenheit_conversion = ((9 / 5) * c_int) + 32
     f_round = round(farenheit_conversion, 2)
     kelvin_conversion = c_int + 273
     
